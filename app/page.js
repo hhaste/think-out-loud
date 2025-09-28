@@ -20,7 +20,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col items-center bg-gray-50 pt-40">
+    <div className="min-h-screen flex flex-col items-center bg-gray-50 py-20">
       <div className="w-full max-w-xl text-center space-y-16">
         <h1 className="text-3xl font-bold text-gray-900 flex items-center justify-center gap-3">
           <MessageCircle size={30} /> Think Out Loud
